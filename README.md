@@ -1,2 +1,2 @@
 # Aztek Quiz
- Aztek Quiz
+ Aztek Quiz for DMTLabs
