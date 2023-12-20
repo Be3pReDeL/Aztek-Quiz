@@ -65,6 +65,33 @@
           "Key" : "Obfuscate_Assembly_In_Assets_AssemblyDefinitionFiles",
           "Value" : "True",
           "Values" : null
+        },
+        {
+          "Type" : "Array_String",
+          "Key" : "Obfuscate_Assembly_Additional_Assembly_Array",
+          "Value" : null,
+          "Values" : [
+          ]
+        },
+        {
+          "Type" : "Array_String",
+          "Key" : "Obfuscate_Assembly_Additional_Assembly_Dependencies_Array",
+          "Value" : null,
+          "Values" : [
+            "Assets/OneSignal",
+            "Packages/com.unity.ugui",
+            "Assets/NotchSolution",
+            "Assets/UniWebView",
+            "Packages/com.unity.2d.sprite",
+            "Packages/com.unity.burst",
+            "Packages/com.unity.2d.animation",
+            "Packages/com.unity.2d.spriteshape",
+            "Packages/com.unity.2d.common",
+            "Packages/com.onesignal.unity.ios",
+            "Packages/com.onesignal.unity.core",
+            "Assets/AppsFlyer",
+            "Assets/HapticFeedback"
+          ]
         }
       ]
     },
@@ -114,6 +141,20 @@
           "Key" : "Obfuscate_Namespaces",
           "Value" : "True",
           "Values" : null
+        },
+        {
+          "Type" : "Array_String",
+          "Key" : "Skip_Namespace_Array",
+          "Value" : null,
+          "Values" : [
+            "UnityEditor.UI",
+            "UnityEditor.EventSystem",
+            "UniWebViewNamespace",
+            "E7.NotchSolution",
+            "OneSignalSDK",
+            "AppsFlyerSDK",
+            "CandyCoded.HapticFeedback"
+          ]
         }
       ]
     },
@@ -284,6 +325,24 @@
           "Key" : "Obfuscate_Field_Public",
           "Value" : "True",
           "Values" : null
+        },
+        {
+          "Type" : "Bool",
+          "Key" : "Obfuscate_Field_Serializable",
+          "Value" : "True",
+          "Values" : null
+        },
+        {
+          "Type" : "Bool",
+          "Key" : "Obfuscate_Field_Public_Unity",
+          "Value" : "True",
+          "Values" : null
+        },
+        {
+          "Type" : "Bool",
+          "Key" : "Obfuscate_Field_Enums",
+          "Value" : "True",
+          "Values" : null
         }
       ]
     },
@@ -365,6 +424,12 @@
     {
       "Settings_Name" : "Default_Obfuscation_Component_Renaming",
       "SettingElement_Array" : [
+        {
+          "Type" : "String",
+          "Key" : "Save_Mapping_FilePath",
+          "Value" : "/Volumes/Work SSD/DMTLabs/Aztek-Quiz/Aztek Quiz/Mapping",
+          "Values" : null
+        }
       ]
     },
     {
@@ -381,6 +446,12 @@
     {
       "Settings_Name" : "Default_Obfuscation_Component_Method_ControlFlow",
       "SettingElement_Array" : [
+        {
+          "Type" : "Bool",
+          "Key" : "Enable_Method_ControlFlow",
+          "Value" : "True",
+          "Values" : null
+        }
       ]
     },
     {
@@ -417,7 +488,7 @@
       ]
     }
   ],
-  "Version" : "5.0.4",
+  "Version" : "5.0.5",
   "SettingElement_Array" : [
     {
       "Type" : "Bool",
