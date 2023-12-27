@@ -1,0 +1,105 @@
+{
+    "questions": [
+      {
+        "question": "What was the capital city of the Aztec Empire?",
+        "options": ["Tenochtitlan", "Cuzco", "Machu Picchu", "Teotihuacan"],
+        "correct_answer": "Tenochtitlan"
+      },
+      {
+        "question": "Who was the last ruler of the Aztec Empire before the Spanish conquest?",
+        "options": ["Moctezuma I", "Cuauhtemoc", "Montezuma II", "Atahualpa"],
+        "correct_answer": "Cuauhtemoc"
+      },
+      {
+        "question": "What is the main source of information about Aztec civilization?",
+        "options": ["Aztec codices", "Hieroglyphics", "Stone tablets", "Greek historians"],
+        "correct_answer": "Aztec codices"
+      },
+      {
+        "question": "Which god was considered the chief deity of the Aztec religion?",
+        "options": ["Huitzilopochtli", "Quetzalcoatl", "Tlaloc", "Xipe Totec"],
+        "correct_answer": "Huitzilopochtli"
+      },
+      {
+        "question": "What was the primary staple food of the Aztecs?",
+        "options": ["Maize (corn)", "Potatoes", "Rice", "Wheat"],
+        "correct_answer": "Maize (corn)"
+      },
+      {
+        "question": "Which famous Spanish conquistador led the expedition that conquered the Aztec Empire?",
+        "options": ["Hernan Cortes", "Francisco Pizarro", "Ferdinand Magellan", "Vasco da Gama"],
+        "correct_answer": "Hernan Cortes"
+      },
+      {
+        "question": "What was the purpose of the Aztec's Templo Mayor?",
+        "options": ["Religious ceremonies", "Military training", "Astronomy observations", "Storage of food"],
+        "correct_answer": "Religious ceremonies"
+      },
+      {
+        "question": "Which of the following civilizations influenced the Aztecs?",
+        "options": ["Maya", "Inca", "Egyptian", "Chinese"],
+        "correct_answer": "Maya"
+      },
+      {
+        "question": "What happened to the Aztec Emperor Moctezuma II during the Spanish conquest?",
+        "options": ["He was killed", "He was captured", "He escaped", "He surrendered"],
+        "correct_answer": "He was captured"
+      },
+      {
+        "question": "What is the name of the sacred ballgame played by the Aztecs?",
+        "options": ["Ulama", "Soccer", "Basketball", "Baseball"],
+        "correct_answer": "Ulama"
+      },
+      {
+        "question": "What was the primary architectural feature of Tenochtitlan, the capital of the Aztec Empire?",
+        "options": ["Floating gardens", "Pyramids", "Lighthouses", "Aqueducts"],
+        "correct_answer": "Floating gardens"
+      },
+      {
+        "question": "What was the main reason for the decline of the Aztec Empire?",
+        "options": ["Disease", "Famine", "War with the Maya", "Natural disasters"],
+        "correct_answer": "Disease"
+      },
+      {
+        "question": "Which European disease played a significant role in the fall of the Aztec Empire?",
+        "options": ["Smallpox", "Influenza", "Cholera", "Tuberculosis"],
+        "correct_answer": "Smallpox"
+      },
+      {
+        "question": "What was the Aztec calendar system based on?",
+        "options": ["Solar and ritual calendars", "Lunar calendar", "Mayan calendar", "Gregorian calendar"],
+        "correct_answer": "Solar and ritual calendars"
+      },
+      {
+        "question": "What material did the Aztecs use for writing and record-keeping?",
+        "options": ["Amate paper", "Papyrus", "Animal hides", "Stone tablets"],
+        "correct_answer": "Amate paper"
+      },
+      {
+        "question": "Which Aztec festival involved the sacrifice of captives to the gods?",
+        "options": ["Huey Tozoztli", "Day of the Dead", "Inti Raymi", "Carnival"],
+        "correct_answer": "Huey Tozoztli"
+      },
+      {
+        "question": "What was the traditional Aztec clothing made of?",
+        "options": ["Cotton", "Silk", "Wool", "Leather"],
+        "correct_answer": "Cotton"
+      },
+      {
+        "question": "What is the name of the famous Aztec feathered serpent god?",
+        "options": ["Quetzalcoatl", "Huitzilopochtli", "Tlaloc", "Xipe Totec"],
+        "correct_answer": "Quetzalcoatl"
+      },
+      {
+        "question": "What was the social structure of Aztec society?",
+        "options": ["Emperor, nobles, commoners, slaves", "Emperor, priests, warriors, farmers", "Emperor, merchants, artisans, soldiers", "Emperor, philosophers, artists, laborers"],
+        "correct_answer": "Emperor, nobles, commoners, slaves"
+      },
+      {
+        "question": "What happened to the Aztec Empire in the year 1521?",
+        "options": ["It was conquered by the Spanish", "It collapsed due to internal strife", "It was invaded by the Inca", "It experienced a golden age"],
+        "correct_answer": "It was conquered by the Spanish"
+      }
+    ]
+  }
+  

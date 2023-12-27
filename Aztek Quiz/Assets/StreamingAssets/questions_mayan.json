@@ -1,0 +1,105 @@
+{
+    "questions": [
+      {
+        "question": "What ancient civilization is known for its city-states in Mesoamerica?",
+        "options": ["Maya", "Inca", "Aztec", "Egyptian"],
+        "correct_answer": "Maya"
+      },
+      {
+        "question": "Which famous ancient city was a major center of Maya civilization?",
+        "options": ["Tikal", "Machu Picchu", "Chichen Itza", "Cuzco"],
+        "correct_answer": "Tikal"
+      },
+      {
+        "question": "What is the name of the Maya writing system that used hieroglyphs?",
+        "options": ["Maya script", "Cuneiform", "Hieratic script", "Hangul"],
+        "correct_answer": "Maya script"
+      },
+      {
+        "question": "What was the primary staple food of the Maya civilization?",
+        "options": ["Maize (corn)", "Potatoes", "Rice", "Wheat"],
+        "correct_answer": "Maize (corn)"
+      },
+      {
+        "question": "What was the purpose of the Maya pyramid-temples?",
+        "options": ["Religious ceremonies", "Military fortresses", "Observing stars", "Housing for the elite"],
+        "correct_answer": "Religious ceremonies"
+      },
+      {
+        "question": "Which Maya deity is associated with creation and maize?",
+        "options": ["Itzamna", "Hunahpu", "Kukulkan", "Ixtab"],
+        "correct_answer": "Itzamna"
+      },
+      {
+        "question": "What is the name of the famous Maya calendar that predicted the end of the world in 2012?",
+        "options": ["Long Count calendar", "Tzolk'in calendar", "Haab' calendar", "Maya calendar"],
+        "correct_answer": "Long Count calendar"
+      },
+      {
+        "question": "Which modern countries are located in the region where the Maya civilization thrived?",
+        "options": ["Mexico, Guatemala, Belize, Honduras", "Peru, Bolivia, Ecuador", "Egypt, Sudan", "China, Japan, Korea"],
+        "correct_answer": "Mexico, Guatemala, Belize, Honduras"
+      },
+      {
+        "question": "What was the fate of the Maya civilization?",
+        "options": ["It declined and abandoned its cities", "It was conquered by the Aztecs", "It still exists today", "It conquered the Inca Empire"],
+        "correct_answer": "It declined and abandoned its cities"
+      },
+      {
+        "question": "What is the name of the famous Maya ballgame played with a rubber ball?",
+        "options": ["Pok-a-tok", "Soccer", "Basketball", "Volleyball"],
+        "correct_answer": "Pok-a-tok"
+      },
+      {
+        "question": "Which material did the Maya use for making their colorful textiles?",
+        "options": ["Cotton", "Silk", "Wool", "Leather"],
+        "correct_answer": "Cotton"
+      },
+      {
+        "question": "What was the primary source of Maya economy and trade?",
+        "options": ["Agriculture and trade", "Fishing and hunting", "Mining and metallurgy", "Manufacturing and industry"],
+        "correct_answer": "Agriculture and trade"
+      },
+      {
+        "question": "What is the name of the sacred Maya book that contains religious and historical texts?",
+        "options": ["Popol Vuh", "Bhagavad Gita", "Iliad", "Divine Comedy"],
+        "correct_answer": "Popol Vuh"
+      },
+      {
+        "question": "Which of the following is a famous Maya archaeological site known for its astronomical observatory?",
+        "options": ["Caracol", "Palenque", "Uxmal", "Copan"],
+        "correct_answer": "Caracol"
+      },
+      {
+        "question": "What is the significance of the Maya Stele monuments?",
+        "options": ["They are carved with hieroglyphs and record historical events", "They are giant sculptures of Maya gods", "They were used as fortifications", "They mark the Maya ball courts"],
+        "correct_answer": "They are carved with hieroglyphs and record historical events"
+      },
+      {
+        "question": "What is the name of the sacred cenote (natural sinkhole) in Chichen Itza used for offerings?",
+        "options": ["Cenote Sagrado", "Cenote Azul", "Cenote Negro", "Cenote Cristalino"],
+        "correct_answer": "Cenote Sagrado"
+      },
+      {
+        "question": "Which type of farming did the Maya use to cultivate crops in the rainforests?",
+        "options": ["Slash-and-burn agriculture", "Terrace farming", "Crop rotation", "Irrigation farming"],
+        "correct_answer": "Slash-and-burn agriculture"
+      },
+      {
+        "question": "What is the name of the step pyramid in Chichen Itza that is known for its equinox phenomenon?",
+        "options": ["El Castillo", "Pyramid of the Sun", "Temple of the Inscriptions", "Pyramid of the Moon"],
+        "correct_answer": "El Castillo"
+      },
+      {
+        "question": "What is the significance of the Maya Jaguar as a symbol?",
+        "options": ["It represents power and royalty", "It symbolizes agriculture and fertility", "It represents death and rebirth", "It symbolizes the sun god"],
+        "correct_answer": "It represents power and royalty"
+      },
+      {
+        "question": "What was the social structure of Maya society?",
+        "options": ["Kings, priests, nobles, commoners, slaves", "Emperor, warriors, merchants, farmers", "Pharaoh, viziers, scribes, laborers", "Samurai, daimyo, peasants, artisans"],
+        "correct_answer": "Kings, priests, nobles, commoners, slaves"
+      }
+    ]
+  }
+  

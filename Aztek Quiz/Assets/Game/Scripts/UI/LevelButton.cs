@@ -17,13 +17,21 @@ public class LevelButton : MonoBehaviour {
 
     public LevelType ThisLevelType = LevelType.aztec;
 
-    private void OnEnable() {
-        int starsCount = 0;
+    private void Start() {
+        int starsCount;
 
-        switch(ThisLevelType){
+        switch (ThisLevelType){
             case LevelType.aztec:
-                if(PlayerPrefs.GetInt("Level Aztec " + _levelIndex.ToString(), 0) == 0)
+                if(PlayerPrefs.GetInt("Level Aztec " + _levelIndex.ToString(), 0) == 0) {
                     _lockedLevel.SetActive(true);
+
+                    GetComponent<Button>().interactable = false;
+
+                    _starsIcon.gameObject.SetActive(false);
+                } else{
+                    _lockedLevel.SetActive(false);
+
+                    GetComponent<Button>().interactable = true;
 
                     starsCount = PlayerPrefs.GetInt("Stars Aztec " + _levelIndex.ToString(), 0);
 
@@ -31,21 +39,30 @@ public class LevelButton : MonoBehaviour {
                         _starsIcon.gameObject.SetActive(false);
                     
                     else 
-                        _starsIcon.sprite = _starsSprites[starsCount];
+                        _starsIcon.sprite = _starsSprites[starsCount - 1];
+                }
             break;
 
             case LevelType.mayan:
-                if(PlayerPrefs.GetInt("Level Mayan " + _levelIndex.ToString(), 0) == 0)
+                if(PlayerPrefs.GetInt("Level Mayan " + _levelIndex.ToString(), 0) == 0) {
                     _lockedLevel.SetActive(true);
 
-                starsCount = PlayerPrefs.GetInt("Stars Mayan " + _levelIndex.ToString(), 0);
+                    GetComponent<Button>().interactable = false;
 
-                if(starsCount == 0)
                     _starsIcon.gameObject.SetActive(false);
+                } else{
+                    _lockedLevel.SetActive(false);
+
+                    GetComponent<Button>().interactable = true;
                     
-                else 
-                    _starsIcon.sprite = _starsSprites[starsCount];
-                
+                    starsCount = PlayerPrefs.GetInt("Stars Mayan " + _levelIndex.ToString(), 0);
+
+                    if(starsCount == 0)
+                        _starsIcon.gameObject.SetActive(false);
+                    
+                    else 
+                        _starsIcon.sprite = _starsSprites[starsCount - 1];
+                }
             break;
 
             default:
@@ -57,6 +74,7 @@ public class LevelButton : MonoBehaviour {
 
     private void Awake() {
         PlayerPrefs.SetInt("Level Aztec 1", 1);
+        PlayerPrefs.SetInt("Level Mayan 1", 1);
     }
 
     [OPS.Obfuscator.Attribute.DoNotRename]

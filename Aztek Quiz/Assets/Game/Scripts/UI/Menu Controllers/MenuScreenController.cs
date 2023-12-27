@@ -25,7 +25,7 @@ public class MenuScreenController : UIController {
 
     [OPS.Obfuscator.Attribute.DoNotRename]
     public void BuyMayans(){
-        if(PlayerPrefs.GetInt("Coins", 0) == MAYANSCATEGORYCOST){
+        if(PlayerPrefs.GetInt("Coins", 0) >= MAYANSCATEGORYCOST){
             ActivateMayansButton();
 
             PlayerPrefs.SetInt("Mayans", 1);
