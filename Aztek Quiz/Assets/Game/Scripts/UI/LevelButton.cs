@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LevelButton : MonoBehaviour {
     [SerializeField] private Image _starsIcon;
@@ -82,5 +83,7 @@ public class LevelButton : MonoBehaviour {
         PlayerPrefs.SetInt("Current Level", _levelIndex);
         PlayerPrefs.SetInt("Current Type", (int) ThisLevelType);
         PlayerPrefs.SetString("Mode", "Campaign");
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

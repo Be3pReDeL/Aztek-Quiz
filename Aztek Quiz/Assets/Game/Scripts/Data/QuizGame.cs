@@ -28,7 +28,7 @@ public class QuizGame : MonoBehaviour {
     [SerializeField] private TextMeshProUGUI _questionText, _playerNameText, _timerText, _questionPanelText, _levelText;
     [SerializeField] private List<Button> _answerButtons;
     [SerializeField] private Button _hintButton;
-    [SerializeField] private GameObject _timer;
+    [SerializeField] private GameObject _timer, _notEnoughMoneyPlane;
     [SerializeField] private GameEndScreen _gameEndScreen;
 
     private List<QuizQuestion> _quizQuestions;
@@ -242,8 +242,7 @@ public class QuizGame : MonoBehaviour {
             StartCoroutine(ShowCorrectAnswerHint());
             PlayerPrefs.SetInt("Coins", coins - 50); // Уменьшаем количество монет
         } else {
-            Debug.Log("Недостаточно монет!");
-            // Здесь можно добавить логику для уведомления пользователя
+            _notEnoughMoneyPlane.SetActive(true);
         }
     }
 

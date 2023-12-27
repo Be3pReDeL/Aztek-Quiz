@@ -87,12 +87,50 @@ public class GameEndScreen : UIController {
 
             PlayerPrefs.SetInt("Stars Aztec " + level.ToString(), stars);
 
+            if(PlayerPrefs.GetInt("Level Aztec " + 1.ToString(), 0) == 1){
+                PlayerPrefs.SetInt("Show Reward", 1);
+                PlayerPrefs.GetInt("Current Reward", 0);
+            }
+            else if(PlayerPrefs.GetInt("Level Aztec " + 5.ToString(), 0) == 1){
+                PlayerPrefs.SetInt("Show Reward", 1);
+                PlayerPrefs.GetInt("Current Reward", 1);
+            }
+            else if(PlayerPrefs.GetInt("Level Aztec " + 9.ToString(), 0) == 1){
+                PlayerPrefs.SetInt("Show Reward", 1);
+                PlayerPrefs.GetInt("Current Reward", 4);
+            }
+            else if(PlayerPrefs.GetInt("Level Aztec " + 12.ToString(), 0) == 1){
+                PlayerPrefs.SetInt("Show Reward", 1);
+                PlayerPrefs.GetInt("Current Reward", 5);
+            }
+            else if(PlayerPrefs.GetInt("Level Aztec " + 18.ToString(), 0) == 1){
+                PlayerPrefs.SetInt("Show Reward", 1);
+                PlayerPrefs.GetInt("Current Reward", 8);
+            }
+
             Debug.Log("AZTEC NEXT LEVEL");
         } else{
             PlayerPrefs.SetInt("Level Mayan " + level.ToString(), 1);
             PlayerPrefs.SetInt("Level Mayan " + (level + 1).ToString(), 1);
 
             PlayerPrefs.SetInt("Stars Mayan " + level.ToString(), stars);
+
+            if(PlayerPrefs.GetInt("Level Mayan " + 3.ToString(), 0) == 1){
+                PlayerPrefs.SetInt("Show Reward", 1);
+                PlayerPrefs.GetInt("Current Reward", 2);
+            }
+            else if(PlayerPrefs.GetInt("Level Mayan " + 7.ToString(), 0) == 1){
+                PlayerPrefs.SetInt("Show Reward", 1);
+                PlayerPrefs.GetInt("Current Reward", 3);
+            }
+            else if(PlayerPrefs.GetInt("Level Mayan " + 14.ToString(), 0) == 1){
+                PlayerPrefs.SetInt("Show Reward", 1);
+                PlayerPrefs.GetInt("Current Reward", 6);
+            }
+            else if(PlayerPrefs.GetInt("Level Mayan " + 16.ToString(), 0) == 1){
+                PlayerPrefs.SetInt("Show Reward", 1);
+                PlayerPrefs.GetInt("Current Reward", 7);
+            }
 
             Debug.Log("MAYAN NEXT LEVEL");
         }

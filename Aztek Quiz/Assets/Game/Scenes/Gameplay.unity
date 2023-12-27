@@ -3196,6 +3196,7 @@ GameObject:
   - component: {fileID: 863793505}
   - component: {fileID: 863793507}
   - component: {fileID: 863793506}
+  - component: {fileID: 863793508}
   m_Layer: 5
   m_Name: Not Enough Money Icon
   m_TagString: Untagged
@@ -3261,6 +3262,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863793504}
   m_CullTransparentMesh: 1
+--- !u!95 &863793508
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863793504}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 586155c4a33ec41d88964338413aecac, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &923985891
 GameObject:
   m_ObjectHideFlags: 0
@@ -6472,6 +6494,7 @@ MonoBehaviour:
   - {fileID: 145057418}
   _hintButton: {fileID: 1606541723}
   _timer: {fileID: 1797106830}
+  _notEnoughMoneyPlane: {fileID: 863793504}
   _gameEndScreen: {fileID: 1814829663}
 --- !u!1 &2078669349
 GameObject:
