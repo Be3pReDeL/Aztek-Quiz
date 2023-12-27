@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   urlOnStart: 
-  showOnStart: 0
+  showOnStart: 1
   fullScreen: 1
   useToolbar: 1
   toolbarPosition: 0
