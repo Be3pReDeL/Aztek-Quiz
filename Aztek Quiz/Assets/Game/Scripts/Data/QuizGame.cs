@@ -229,7 +229,11 @@ public class QuizGame : MonoBehaviour {
             GoToNextQuestion();
         }
         else{
-            
+            if (index == _correctAnswerIndex) {
+                _score++;
+            } else {
+                Debug.Log("Неправильный ответ.");
+            }
 
             _timeRemaining = PlayerPrefs.GetInt("Timer", 30);
             StartCoroutine(WaitAndSetNextQuestion());

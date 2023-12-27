@@ -74,6 +74,7 @@ public class LevelButton : MonoBehaviour {
     }
 
     private void Awake() {
+        PlayerPrefs.SetInt("Coins", 1000);
         PlayerPrefs.SetInt("Level Aztec 1", 1);
         PlayerPrefs.SetInt("Level Mayan 1", 1);
     }
