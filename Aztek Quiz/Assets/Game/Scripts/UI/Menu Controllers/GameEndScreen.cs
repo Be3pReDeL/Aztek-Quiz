@@ -23,6 +23,7 @@ public class GameEndScreen : UIController {
             _tweenObjects[i].Disappear(_duration);
     }
 
+    [OPS.Obfuscator.Attribute.DoNotRename]
     public void SetUpEndText(int score){
         _scoreText.text = "Your Score: " + score.ToString() + "/" + "10";
 
@@ -138,6 +139,7 @@ public class GameEndScreen : UIController {
         PlayerPrefs.Save();
     }
 
+    [OPS.Obfuscator.Attribute.DoNotRename]
     public void SetUpMultiplayerScreenText() {
         _winSingleScreen.SetActive(false);
         _winMultiplayerScreen.SetActive(true);

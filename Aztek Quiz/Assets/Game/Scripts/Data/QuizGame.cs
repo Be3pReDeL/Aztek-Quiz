@@ -212,6 +212,7 @@ public class QuizGame : MonoBehaviour {
         }
     }
 
+    [OPS.Obfuscator.Attribute.DoNotRename]
     public void AnswerSelected(int index) {
         if (_currentGameMode == GameMode.Multiplayer){
             if (index == _correctAnswerIndex) {

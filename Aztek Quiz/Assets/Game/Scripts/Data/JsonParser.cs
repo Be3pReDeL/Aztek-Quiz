@@ -18,6 +18,7 @@ public class JsonParser : MonoBehaviour {
         questions = LoadQuestions();
     }
 
+    [OPS.Obfuscator.Attribute.DoNotRename]
     public List<Question> LoadQuestions() {
         List<Question> questions = new List<Question>();
 
@@ -35,6 +36,7 @@ public class JsonParser : MonoBehaviour {
         return questions;
     }
 
+    [OPS.Obfuscator.Attribute.DoNotRename]
     public Question GetQuestion(int index) {
         if (index >= 0 && index < questions.Count)
             return questions[index];
@@ -45,11 +47,13 @@ public class JsonParser : MonoBehaviour {
         }
     }
 
+    [OPS.Obfuscator.Attribute.DoNotRename]
     public string[] GetOptions(int questionIndex) {
         Question question = GetQuestion(questionIndex);
         return question != null ? question.options : null;
     }
 
+    [OPS.Obfuscator.Attribute.DoNotRename]
     public int GetCorrectAnswerIndex(int questionIndex) {
         Question question = GetQuestion(questionIndex);
         return question != null ? question.correctAnswer : -1;

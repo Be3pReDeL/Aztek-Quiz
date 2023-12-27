@@ -37,6 +37,7 @@ public class MenuScreenController : UIController {
         _mayansButton.interactable = true;
     }
 
+    [OPS.Obfuscator.Attribute.DoNotRename]
     public void ChangeGameType(int type){
         PlayerPrefs.SetInt("Current Type", type);
     }
